@@ -1,28 +1,29 @@
 {
-    "name": "nodejs-hoc",
+    "name": "nodejs_hoc",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "scripts": {
-        "start": "nodemon --inspect index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "keywords": [
+        "f8",
+        "blog",
+        "f8",
+        "nodejs"
+    ],
+    "homepage": "https://github.com/BIDOAN/nodejs_node1#readme",
+    "bugs": {
+        "url": "https://github.com/BIDOAN/nodejs_node1/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BIDOAN/nodejs_node.git"
+        "url": "git+https://github.com/BIDOAN/nodejs_node1.git"
     },
-    "keywords": [
-        "f8",
-        "node",
-        "f8",
-        "blog"
-    ],
-    "author": "hung",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/BIDOAN/nodejs_node/issues"
+    "author": "hung1",
+    "type": "commonjs",
+    "scripts": {
+      "start": "nodemon --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "homepage": "https://github.com/BIDOAN/nodejs_node#readme",
     "dependencies": {
         "express": "^5.2.1"
     },
